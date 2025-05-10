@@ -6,7 +6,7 @@ class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFF16212C),
+      backgroundColor: Color(0xFF16212C),//배경색 추가
       body: Center(child: Image.asset('assets/business_card.png',),),
     );
   }
