@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/':(context) => SplashScreen(),
-        '/main ':(context) => MainScreen(),
+        '/main':(context) => MainScreen(),//라우트설정
       },
 
     );
