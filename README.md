@@ -16,12 +16,11 @@ git clone https://github.com/your-username/business_card.git
 cd business_card
 flutter pub get
 flutter run
+```
 
----
-'''
 **📂 주요 기능 및 설명**
 1. Splash Screen
-![Uploading KakaoTalk_20250511_170606433.jpg…]()
+![KakaoTalk_20250511_170606433](https://github.com/user-attachments/assets/8c0f7996-7d6b-4888-8563-47938bc4af3b)
 
 
 앱 시작 시 2초간 로딩 화면 표시
