@@ -17,6 +17,7 @@ cd business_card
 flutter pub get
 flutter run
 ```
+---
 
 **📂 주요 기능 및 설명**
 1. Splash Screen
