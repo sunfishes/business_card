@@ -20,8 +20,7 @@ flutter run
 
 **📂 주요 기능 및 설명**
 1. Splash Screen
-![KakaoTalk_20250511_170606433](https://github.com/user-attachments/assets/8c0f7996-7d6b-4888-8563-47938bc4af3b)
-
+<img src="https://github.com/user-attachments/assets/8c0f7996-7d6b-4888-8563-47938bc4af3b" width="300"/>
 
 앱 시작 시 2초간 로딩 화면 표시
 
