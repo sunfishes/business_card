@@ -27,6 +27,7 @@ flutter run
 Future.delayed를 사용하여 MainScreen으로 전환
 
 2. Main Screen
+<img src="https://github.com/user-attachments/assets/25ce8bd7-70c7-4970-9963-01542b91569a" width="300"/>
 Custom AppBar
 
 좌측 아이콘(leading)과 앱 제목 표시
@@ -38,6 +39,8 @@ SingleChildScrollView로 콘텐츠가 넘칠 때 스크롤 가능
 margin과 borderRadius를 사용해 시각적 간격 확보
 
 3. 자기소개 섹션
+<img src="https://github.com/user-attachments/assets/9969e986-d4be-4625-be4f-026228791f41" width="300"/>
+
 TextField를 통해 소개글 작성 가능
 
 편집 모드에 따라 색상 변경 (Blue: 편집 중, Black: 작성 완료)
