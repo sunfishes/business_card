@@ -1,6 +1,6 @@
 # business_card
 
-나의 명함 앱 만들기
+Hello my first flutter project is businesscard.
 
 ## Getting Started
 
