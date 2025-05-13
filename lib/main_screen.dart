@@ -9,13 +9,13 @@ class MainScreen extends StatefulWidget {
 }
 
 class _MainScreenState extends State<MainScreen> {
-  //자기소개 입력받는 컨트롤러
+  //자기소개 입력받는 컨트롤러 전역변수 설정
   TextEditingController introduceController = TextEditingController();
-  //자기소개 수정 모드 상태
+  //자기소개 수정 모드 상태 기본상태 false로 설정하고 수정할때 true
   bool isEditMode = false;
 
   @override
-  void initState() {
+  void initState() { //상태초기화
     super.initState();
     //위젯이 처음 실행되었을 때 이곳을 호출합니다.
     getIntroduceData();
@@ -24,12 +24,12 @@ class _MainScreenState extends State<MainScreen> {
   Widget build(BuildContext context) {
     return Scaffold(appBar: AppBar(
       leading: Icon(
-        Icons.accessibility_new,
+        Icons.accessibility_new,//leading이란 앱바를 커스텀할때 사용하는 주로 왼쪽 상단에 위치함
         color: Colors.black,
         size: 32,),
       backgroundColor: Colors.white,
       elevation: 0,
-      title: Text('발전하는 개발자 권소정을 소개합니다.',
+      title: Text('발전하는 개발자 권소정을 소개합니다.', //앱바타이틀
         style: TextStyle(
           fontSize: 14,
           color: Colors.black,
@@ -37,12 +37,12 @@ class _MainScreenState extends State<MainScreen> {
         ),
       ),
     ),
-      body: SingleChildScrollView(
+      body: SingleChildScrollView( //전체적인 화면 구성을 스크롤뷰를 사용하여, 내용이 잘리지않도록 합니다
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start, // 열 정렬 가운데로
           children: [
         Container(
-          margin: EdgeInsets.all(16),
+          margin: EdgeInsets.all(16),// 사진 마진조정 앱바 그리고 양옆 아래까지 간격조정
           width: double.infinity,
           height: 250,
           child: ClipRRect(
@@ -135,7 +135,7 @@ class _MainScreenState extends State<MainScreen> {
                 margin: EdgeInsets.only(right: 24, top: 16),
                 child: Icon(
                 Icons.mode_edit,
-                color: isEditMode == true ? Colors.blueAccent : Colors.black,
+                color: isEditMode == true ? Colors.blueAccent : Colors.black,//삼항연산자를 사용하여 수정할때 파랑색으로 바뀌고 저장할때 수정안할때 검은색
                 size: 24,),
                 ), onTap: () async {
                 if (isEditMode == false) {
