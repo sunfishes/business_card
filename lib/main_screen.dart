@@ -52,7 +52,7 @@ class _MainScreenState extends State<MainScreen> {
         ),
         //이름섹션
           Container(
-            margin: EdgeInsets.symmetric(vertical: 8, horizontal: 32),
+            margin: EdgeInsets.symmetric(vertical: 8, horizontal: 32), //대칭방향의 여백을 동일하게 해주는 symmetric vertical: 수직 horizontal: 수평
             child: Row(
               children: [
                 Container(
